@@ -5,5 +5,6 @@ import { Component } from '@angular/core';
     templateUrl: 'entry-comment-form.component.html'
 })
 export class EntryComponentFormComponent {
-    
+    name: string;
+    comment: string;
 }
